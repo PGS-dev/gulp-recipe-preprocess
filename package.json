@@ -1,0 +1,21 @@
+{
+  "name": "gulp-recipe-preprocess",
+  "version": "0.1.0",
+  "description": "Receipe preprocessing source files",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PGS-dev/gulp-recipe-preprocess.git"
+  },
+  "keywords": [
+    "PGS",
+    "gulp",
+    "gulp-receipe",
+    "preprocess"
+  ],
+  "author": "PGS Front",
+  "license": "ISC",
+  "dependencies": {
+    "gulp-preprocess": "^1.2.0"
+  }
+}

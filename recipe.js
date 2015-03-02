@@ -11,8 +11,8 @@ module.exports = function ($, config, sources) {
              * @hooks pipe.preDevBuild*
              * @hooks pipe.preBuild*
              */
-            preDevBuild: [config.preprocess.order, $.lazypipe().pipe($.preprocess, config.preprocess.dev)],
-            preBuild: [config.preprocess.order, $.lazypipe().pipe($.preprocess, config.preprocess.prod)]
+            preDevBuild: [config.order.preprocess, $.lazypipe().pipe($.preprocess, config.preprocess.dev)],
+            preBuild: [config.order.preprocess, $.lazypipe().pipe($.preprocess, config.preprocess.prod)]
         }
     }
 };

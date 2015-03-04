@@ -4,7 +4,7 @@
  * Preprocess index source files
  *
  */
-module.exports = function ($, config, sources) {
+module.exports = function ($, config) {
     return {
         pipes: {
             /**
@@ -12,7 +12,7 @@ module.exports = function ($, config, sources) {
              * @hooks pipe.preBuild*
              */
             preDevBuild: [config.order.preprocess, $.lazypipe().pipe($.preprocess, config.preprocess.dev)],
-            preBuild: [config.order.preprocess, $.lazypipe().pipe($.preprocess, config.preprocess.prod)]
+            preBuild: [config.order.preprocess, $.lazypipe().pipe($.preprocess, config.preprocess.dist)]
         }
     }
 };

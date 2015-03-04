@@ -8,7 +8,7 @@ module.exports = function ($, config) {
         },
         preprocess: {
             dev: {context: {target: 'dev'}},
-            prod: {context: {target: 'prod'}}
+            dist: {context: {target: 'dist'}}
         }
-    })
+    }, config);
 };

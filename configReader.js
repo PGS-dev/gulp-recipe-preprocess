@@ -1,8 +1,8 @@
 'use strict';
 
 module.exports = function ($, config) {
-    var _ = $.lodash;
-    return _.merge({
+    config.sources = undefined;
+    return $.lodash.merge({
         order: {
             preprocess: 10
         },

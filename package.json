@@ -1,6 +1,6 @@
 {
   "name": "gulp-recipe-preprocess",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Receipe preprocessing source files",
   "main": "main.js",
   "repository": {

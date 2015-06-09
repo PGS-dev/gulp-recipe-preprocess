@@ -5,7 +5,7 @@
   "main": "main.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/PGS-dev/gulp-recipe-preprocess.git"
+    "url": "https://github.com/PGSSoft/gulp-recipe-preprocess.git"
   },
   "keywords": [
     "PGS",
